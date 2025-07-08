@@ -1,6 +1,6 @@
 # 📚 API REST - Gestión de Libros con Lombok y MapStruct
 
-Este proyecto es una API REST desarrollada en **Java** con **Spring Boot**, que permite la gestión de libros. Se utiliza **Lombok** para reducir código repetitivo y **MapStruct** para el mapeo entre entidades y DTOs. Además, los endpoints están documentados con **Swagger**.
+Este proyecto es una API REST desarrollada en **Java** con **Spring Boot**, que permite la gestión de libros. Se utiliza **Lombok** para reducir código repetitivo y **MapStruct** para el mapeo entre entidades y DTOs.
 
 ## 🚀 Tecnologías utilizadas
 
@@ -9,7 +9,6 @@ Este proyecto es una API REST desarrollada en **Java** con **Spring Boot**, que 
 - Spring Data JPA
 - Lombok
 - MapStruct
-- Swagger (OpenAPI 3)
 - MySQL (o base de datos que estés usando)
 - Maven
 
@@ -34,10 +33,8 @@ Este proyecto es una API REST desarrollada en **Java** con **Spring Boot**, que 
    
 3. Ejecuta el proyecto
    ./mvnw spring-boot:run
-   
-4. Accede a Swagger para probar los endpoints:
-   http://localhost:8080/swagger-ui/index.html
-5. Estructura general:
+  
+4. Estructura general:
    src/
    ├── main/
    │   ├── java/
