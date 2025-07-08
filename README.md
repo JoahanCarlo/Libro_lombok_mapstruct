@@ -33,18 +33,4 @@ Este proyecto es una API REST desarrollada en **Java** con **Spring Boot**, que 
    
 3. Ejecuta el proyecto
    ./mvnw spring-boot:run
-  
-4. Estructura general:
-   src/
-   ├── main/
-   │   ├── java/
-   │   │   └── com/joahan/libros
-   │   │       ├── controller
-   │   │       ├── dto
-   │   │       ├── entity
-   │   │       ├── mapper
-   │   │       ├── repository
-   │   │       └── service
-   │   └── resources/
-   │       └── application.properties
 
